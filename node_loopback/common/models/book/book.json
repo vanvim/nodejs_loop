@@ -1,0 +1,27 @@
+{
+  "name": "Book",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Sách thiếu nhi"
+    },
+    "price": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

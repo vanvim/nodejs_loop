@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MyQSL": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "demo",
+    "password": "",
+    "name": "MyQSL",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
